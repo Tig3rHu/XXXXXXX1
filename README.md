@@ -24,3 +24,13 @@ When the GF1200 router processes information in the HTTP service, the buffer on 
 
 In the firmware of the device, there is bifrost binary file. Through reverse engineering, it is found that the chen_token function of the binary file has the vulnerability of buffer overflow, and this function is used to handle the authorization value during login.
 ![image](https://github.com/tigerOrtiger/XXXXXXX1/blob/main/img/image-20210628223241514.png)
+
+###  Vulnerability validation
+
+First I used FAT to simulate the firmware "gf1200-1.10.6.35824_headerless.bin"
+![image](https://github.com/tigerOrtiger/XXXXXXX1/blob/main/img/image-20210629190625472.png)
+Execute the constructed POC
+![image](https://github.com/tigerOrtiger/XXXXXXX1/blob/main/img/image-20210806161051007.png)
+Device Denial of Service
+![image](https://github.com/tigerOrtiger/XXXXXXX1/blob/main/img/image-20210806161146378.png)
+
