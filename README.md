@@ -31,6 +31,8 @@ First I used FAT to simulate the firmware "gf1200-1.10.6.35824_headerless.bin"
 ![image](https://github.com/tigerOrtiger/XXXXXXX1/blob/main/img/image-20210629190625472.png)
 Execute the constructed POC
 ![image](https://github.com/tigerOrtiger/XXXXXXX1/blob/main/img/image-20210806161051007.png)
+
 Device Denial of Service
+
 ![image](https://github.com/tigerOrtiger/XXXXXXX1/blob/main/img/image-20210806161146378.png)
 
